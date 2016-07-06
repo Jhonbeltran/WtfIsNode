@@ -18,7 +18,7 @@
   Run it with node program.js and some numbers as arguments. e.g:  
    
      $ node program.js 1 2 3 
-      
+
   In which case the output would be an array looking something like:  
    
      [ 'node', '/path/to/your/program.js', '1', '2', '3' ]  
@@ -37,8 +37,11 @@
 */
 //I defined a variable for the result
 var result = 0
+/*In which case the output would be an array looking something like:  
+   
+     [ 'node', '/path/to/your/program.js', '1', '2', '3' */
 for (var i = 2; i < process.argv.length; i++) {
  result += Number(process.argv[i])
 }
 console.log(result)
-console.log(process.argv.length)
+/*console.log(process.argv.length)*/
