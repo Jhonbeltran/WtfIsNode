@@ -46,4 +46,4 @@ var lines = contents.toString().split('\n').length - 1
 console.log(lines) 
 
 //with this comand we can see how the program works
-//$ node myfirstio.js Helloworld.js
+//$ node 3myfirstio.js 1helloworld.js
