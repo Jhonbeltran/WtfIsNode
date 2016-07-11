@@ -1,0 +1,24 @@
+{
+  "name": "nodescohool",
+  "version": "1.0.0",
+  "description": "Aprendiendo nodejs con learnyounode",
+  "main": "1helloworld.js",
+  "dependencies": {
+    "bl": "^1.1.2",
+    "concat-stream": "^1.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jhonbeltran/WtfIsNode.git"
+  },
+  "author": "Jhonbeltran <jbeltranleon@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jhonbeltran/WtfIsNode/issues"
+  },
+  "homepage": "https://github.com/Jhonbeltran/WtfIsNode#readme"
+}
